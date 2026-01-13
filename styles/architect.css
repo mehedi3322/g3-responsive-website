@@ -8,3 +8,30 @@
   font-weight: 400px;
   font-style: normal;
 }
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+.d2{
+    color:#424242;
+}
+/* header styles */
+.bg-color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* navbar related styles */
+.nav-items{
+    list-style: none;
+    margin-right: 30px;
+}
+.navbar{
+    justify-content: space-between;
+}
+.nav-link{
+    text-decoration: none;
+}
+.navbar,.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
