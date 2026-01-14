@@ -12,8 +12,17 @@
 .display-flex{
     display: flex;
 }
+.d1{
+    color: #131313;
+}
 .d2{
     color:#424242;
+}
+.d3{
+    color: #727272;
+}
+main{
+    max-width: 1440px;
 }
 /* header styles */
 .bg-color{
@@ -26,6 +35,11 @@
 }
 .navbar{
     justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    font-size: 3rem;
+   font-weight: 700px;
 }
 .nav-link{
     text-decoration: none;
@@ -33,5 +47,38 @@
 .navbar,.banner{
     max-width: 1440px;
     margin: 0 auto;
+}
+.primary-brn{
+    background-color: #FF900E;
+    color: white;
+    font-weight: 600px;
+    font-size: 1.25rem;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+}
+/* Banner related style  */
+.banner-content{
+    max-width: 860px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight:700px;
+}
+.banner-description{
+    line-height: 16px;
+}
+.banner-img{
+    width: 100%;
+}
+/* media quary */
+@media  screen and (max-width:576px) {
+    .navbar ,.nav-links{
+        flex-direction: column;
+    }
+    
 }
 
