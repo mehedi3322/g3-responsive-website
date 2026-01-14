@@ -21,9 +21,7 @@
 .d3{
     color: #727272;
 }
-main{
-    max-width: 1440px;
-}
+
 main>section{
     margin-top: 130px;
 }
@@ -33,22 +31,31 @@ main>section{
     max-width: 468px;
 }
 /* team and features related style */
-.team{
-    align-items: center;
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+    
 }
+
+.team{
+   
+    align-items: center;
+    justify-content: center;
+    gap: 74px;
+}
+
 .team-images-container{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
 .features{
-    margin-left: 74px;
     max-width: 537px;
-}
+   }
 #quick{
     font-weight: 500;
     font-size: 2.5rem;
-}
+} 
 #orange{
    color:#FF900E;
 }
@@ -103,7 +110,30 @@ main>section{
 .banner-img{
     width: 100%;
 }
-
+/* fact related style */
+.fact-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.fact{
+    border: 1px solid #FF900E;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.number{
+    font-weight: 600;
+    font-size: 2.8rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.fact-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
 
 /* media quary */
 @media  screen and (max-width:576px) {
@@ -123,4 +153,3 @@ main>section{
     .team{
         flex-direction: column;
     }}
-
